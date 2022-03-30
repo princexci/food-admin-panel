@@ -31,7 +31,7 @@ export default function Index() {
   const [recipeForm] = Form.useForm();
   const [loading, setLoading] = useState(false);
 
-  // For EDIT
+  // For EDIT s
   const [editId, setEditId] = useState(null);
 
   const openModal = (data) => {
