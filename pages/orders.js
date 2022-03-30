@@ -66,12 +66,12 @@ export default function Orders() {
               <List.Item key={index}>
                 - {item?.name}({item?.quantity}) -{" "}
                 <span className="text-blue-500">
-                  ${item?.totalPrice || item?.price}
+                  Nrs. {item?.totalPrice || item?.price}
                 </span>
               </List.Item>
             ))}
           </List>
-          <span className="font-bold">Total: ${results.totalPrice}</span>
+          <span className="font-bold">Total: Nrs. {results.totalPrice}</span>
         </div>
       ),
     },
